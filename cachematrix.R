@@ -40,3 +40,11 @@ cacheSolve <- function(x, ...) {
   x$setinverse(i)
   i
 }
+
+##to Test the code run the following code
+
+B <- matrix(c(1,2,3,4),2,2)
+B1 <- makeCacheMatrix(B)
+cacheSolve(B1)
+
+##inverse returned after computation
